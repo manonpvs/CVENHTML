@@ -1,0 +1,140 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+body {
+    margin:0;
+    padding:0;
+}
+ 
+/*TYPO*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #564D40;
+}
+ 
+h1{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+    color: #A38E84;
+}
+h2{
+    font-family: "Arial Black";
+    font-size: 23px;
+    color: #D1976A;
+}
+ 
+h3{
+    font-family: "Arial Black";
+    font-size: 16px;
+    color: #564D40;
+}
+ 
+h4{
+    font-family: Roboto Regular;
+    font-size: 16px;
+    color: #564D40;
+}
+ 
+/*HEADER*/
+ 
+header{
+    height: 300px;
+    background: url("Fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+ 
+.tete {
+    margin-top: -270px;
+    margin: center;
+    text-align: center;
+ 
+}
+ 
+/*CONTENU*/
+
+.Informations {
+    display: block; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #ECE7E3;
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+
+#col {
+    column-count: 3;
+    display: block; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #ECE7E3;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    border-radius: 5%;
+}
+
+.Compétences {
+    margin-top: -20px;
+}
+
+.adobe {
+    margin: -10px auto -10px auto;
+}
+
+.prez{
+    border-bottom: 2px dashed #ccc;
+}
+
+.prez a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 20px;
+}
+
+.Expériencespro {
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.Parcours {
+    margin-left: 40px;
+}
+
+.parcoursexp {
+    column-count: 2;
+    display: block; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #ECE7E3;
+    text-align: center;
+    margin: 30px 20px 30px 20px;
+    border-radius: 5%;
+}
